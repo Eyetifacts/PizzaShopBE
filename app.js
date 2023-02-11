@@ -6,6 +6,7 @@ var logger = require('morgan');
 const mongoose = require('mongoose');
 require('env2')('config.env');
 
+/* Connect to MongoDB */
 const { DB_URL, PORT = 3000 } = process.env;
 mongoose.set('strictQuery', false);
 mongoose.connect( DB_URL, { useNewUrlParser: true } );
@@ -15,6 +16,7 @@ connection.once('open', function() {
   console.log('Connection to MongoDB established succesfully!');
 });
 
+/* Continue on with regular express stuff */
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
