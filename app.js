@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const mongoose = require('mongoose');
-require('env2')('config.env');
+require('env2')('config.env'); /* Don't worry about the red squiggly here. Things are fine! */
 
 /* Connect to MongoDB */
 const { DB_URL, PORT = 3000 } = process.env;
