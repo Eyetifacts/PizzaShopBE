@@ -3,6 +3,17 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const mongoose = require('mongoose');
+require('env2')('config.env');
+
+const { DB_URL, PORT = 3000 } = process.env;
+mongoose.set('strictQuery', false);
+mongoose.connect( DB_URL, { useNewUrlParser: true } );
+const connection = mongoose.connection;
+
+connection.once('open', function() {
+  console.log('Connection to MongoDB established succesfully!');
+});
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
