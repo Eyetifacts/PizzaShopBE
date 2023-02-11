@@ -12,10 +12,6 @@ mongoose.set('strictQuery', false);
 mongoose.connect( DB_URL, { useNewUrlParser: true } );
 const connection = mongoose.connection;
 
-connection.once('open', function() {
-  console.log('Connection to MongoDB established succesfully!');
-});
-
 /* Continue on with regular express stuff */
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -49,6 +45,16 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+/* App is working message */
+app.listen(() => {
+  console.log('Express app running at: http://localhost:' + PORT);
+});
+
+/* Connection to DB is successful Message */
+connection.once('open', function() {
+  console.log('Connection to MongoDB established succesfully!');
 });
 
 module.exports = app;
