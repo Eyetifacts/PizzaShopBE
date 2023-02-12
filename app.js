@@ -24,7 +24,11 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+
+/* Set up CORS (This tells the app to allow requests from hosts / ip's other than itself)*/
 app.use(cors);
+
+
 /* Express Sessions and Cookie Setup */
 var store =  new MongoDBStore({ 
   uri: DB_URL,
@@ -68,8 +72,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+/* add more routers here */
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -86,6 +94,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 /* App is working message */
 app.listen(() => {
