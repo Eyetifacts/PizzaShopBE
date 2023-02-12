@@ -3,17 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node  --watch app.js ./bin/www"
+    "start": "node --watch app.js ./bin/www"
   },
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "connect-mongodb-session": "^3.1.1",
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "env2": "^2.2.2",
     "express": "~4.16.1",
+    "express-session": "^1.17.3",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "mongodb": "^5.0.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "mongoose": "^6.9.1"

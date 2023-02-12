@@ -5,9 +5,16 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const mongoose = require('mongoose');
 require('env2')('config.env'); /* Don't worry about the red squiggly here. Things are fine! */
+const session = require('express-session');
+const oneDay = 1000 * 60 *60 * 24; /* this is how long cookies last */
+var MongoDBStore = require('connect-mongodb-session')(session);
+const passport = require('passport');
+const LocalStrategy = require('passport-local');
+var cors = require('cors');
+
 
 /* Connect to MongoDB */
-const { DB_URL, PORT = 3000 } = process.env;
+const { SECRET, DB_URL, PORT = 3000 } = process.env;
 mongoose.set('strictQuery', false);
 mongoose.connect( DB_URL, { useNewUrlParser: true } );
 const connection = mongoose.connection;
@@ -17,6 +24,39 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+app.use(cors);
+/* Express Sessions and Cookie Setup */
+var store =  new MongoDBStore({ 
+  uri: DB_URL,
+  database: 'PizzaThomas', 
+  collection: 'sessions' 
+},
+function(error) {
+  console.log(error);
+});
+
+store.on('error', function(error) {
+  console.log('SESSION STORE ERROR: ', error);
+});
+
+const sessionConfig = {
+  store,
+  name: 'session',
+  secret: SECRET,
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    maxAge: oneDay
+  }
+}
+
+app.use(session(sessionConfig));
+app.use(passport.initialize());
+app.use(passport.session())
+//passport.use(new LocalStrategy(User.authenticate()))
+
+//passport.serializeUser(User.serializeUser());
+//passport.deserializeUser(User.deserializeUser());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,7 +64,7 @@ app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
