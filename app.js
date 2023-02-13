@@ -56,7 +56,7 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 app.use(passport.initialize());
-app.use(passport.session())
+app.use(passport.session());
 //passport.use(new LocalStrategy(User.authenticate()))
 
 //passport.serializeUser(User.serializeUser());
@@ -94,7 +94,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
 
 
 /* App is working message */
