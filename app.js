@@ -22,6 +22,7 @@ const connection = mongoose.connection;
 /* Continue on with regular express stuff */
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var menuRouter = require('./routes/menu');
 
 var app = express();
 
@@ -76,6 +77,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 /* add more routers here */
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/menu', menuRouter);
 
 
 

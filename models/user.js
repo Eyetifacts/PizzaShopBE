@@ -25,3 +25,9 @@ const UserSchema = new Schema({
 });
 
 module.exports = mongoose.model('user', UserSchema);
+
+// Favorite Orders / Previous Orders
+// Favorite Store Location
+// Make sure user doesn't use the same promo code twice
+// Language selection
+// Admin page / admin login
