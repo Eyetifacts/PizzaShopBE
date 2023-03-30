@@ -27,7 +27,7 @@ var menuRouter = require('./routes/menu');
 var app = express();
 
 /* Set up CORS (This tells the app to allow requests from hosts / ip's other than itself)*/
-app.use(cors);
+app.use(cors());
 
 
 /* Express Sessions and Cookie Setup */

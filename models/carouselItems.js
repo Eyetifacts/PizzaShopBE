@@ -20,12 +20,12 @@ const carouselItemSchema = new Schema({
         required: true,
         default: "#"
     },
-    linktext: {
-        type: Text,
+    linkText: {
+        type: String,
         required: true
     },
     bgImage: {
-        type: Text,
+        type: String,
         required: false,
         default: "NEEDS IMAGE URL HERE"
     }

@@ -5,8 +5,8 @@ router.post('/couponcode', (req, res, next) => {
   res.end('will apply the coupon code to the order')
 });
 
-router.get('/menu', (req, res, next) => {
-  res.end('will get the menu');
+router.get('order', (req, res, next) => {
+  res.send('will get the menu');
 });
 
 router.get('/locations', (req, res, next) => {
