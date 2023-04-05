@@ -398,27 +398,27 @@ const menuSchema = new Schema({
                                                   true,
                                                   true
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": true
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": "Boolean",
                                             "has_duplicates": true,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "text",
                                             "path": "menuSections.advertRowCards.interestFlag.text",
-                                            "count": 6,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.advertRowCards.interestFlag.text",
-                                                "count": 5,
+                                                "count": Number,
                                                 "values": [
                                                   "NEW",
                                                   "NEW",
@@ -426,50 +426,50 @@ const menuSchema = new Schema({
                                                   "NEW",
                                                   "NEW RECIPE"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.8333333333333334,
-                                                "unique": 2,
+                                                "unique": Number,
                                                 "has_duplicates": true
                                               },
                                               {
                                                 "name": "Null",
                                                 "bsonType": "Null",
                                                 "path": "menuSections.advertRowCards.interestFlag.text",
-                                                "count": 1,
-                                                "total_count": 0,
+                                                "count": Number,
+                                                "total_count": Number,
                                                 "probability": 0.16666666666666666,
-                                                "unique": 1,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": [
                                               "String",
                                               "Null"
                                             ],
                                             "has_duplicates": true,
-                                            "probability": 1
+                                            "probability": Number
                                           }
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1
+                                        "total_count": Number,
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 6,
+                                    "total_count": Number,
                                     "type": "Document",
                                     "has_duplicates": false,
-                                    "probability": 1
+                                    "probability": Number
                                   },
                                   {
                                     "name": "price",
                                     "path": "menuSections.advertRowCards.price",
-                                    "count": 6,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "Double",
                                         "bsonType": "Double",
                                         "path": "menuSections.advertRowCards.price",
-                                        "count": 6,
+                                        "count": Number,
                                         "values": [
                                           6.29,
                                           6.29,
@@ -478,49 +478,49 @@ const menuSchema = new Schema({
                                           6.29,
                                           6.29
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1,
-                                        "unique": 1,
+                                        "total_count": Number,
+                                        "probability": Number,
+                                        "unique": Number,
                                         "has_duplicates": true
                                       }
                                     ],
-                                    "total_count": 6,
+                                    "total_count": Number,
                                     "type": "Double",
                                     "has_duplicates": true,
-                                    "probability": 1
+                                    "probability": Number
                                   },
                                   {
                                     "name": "productCardForm",
                                     "path": "menuSections.advertRowCards.productCardForm",
-                                    "count": 6,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "Document",
                                         "bsonType": "Document",
                                         "path": "menuSections.advertRowCards.productCardForm",
-                                        "count": 6,
+                                        "count": Number,
                                         "fields": [
                                           {
                                             "name": "flavor",
                                             "path": "menuSections.advertRowCards.productCardForm.flavor",
-                                            "count": 6,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.advertRowCards.productCardForm.flavor",
-                                                "count": 6,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "isDisplayed",
                                                     "path": "menuSections.advertRowCards.productCardForm.flavor.isDisplayed",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Boolean",
                                                         "bsonType": "Boolean",
                                                         "path": "menuSections.advertRowCards.productCardForm.flavor.isDisplayed",
-                                                        "count": 6,
+                                                        "count": Number,
                                                         "values": [
                                                           true,
                                                           true,
@@ -529,27 +529,27 @@ const menuSchema = new Schema({
                                                           true,
                                                           true
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Boolean",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "value",
                                                     "path": "menuSections.advertRowCards.productCardForm.flavor.value",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "String",
                                                         "bsonType": "String",
                                                         "path": "menuSections.advertRowCards.productCardForm.flavor.value",
-                                                        "count": 6,
+                                                        "count": Number,
                                                         "values": [
                                                           "Cream Cheese Icing",
                                                           "Pizza Sauce",
@@ -558,48 +558,48 @@ const menuSchema = new Schema({
                                                           "Pizza Sauce",
                                                           "Ranch Sauce"
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 3,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "String",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "quantity",
                                             "path": "menuSections.advertRowCards.productCardForm.quantity",
-                                            "count": 6,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.advertRowCards.productCardForm.quantity",
-                                                "count": 6,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "isDisplayed",
                                                     "path": "menuSections.advertRowCards.productCardForm.quantity.isDisplayed",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Boolean",
                                                         "bsonType": "Boolean",
                                                         "path": "menuSections.advertRowCards.productCardForm.quantity.isDisplayed",
-                                                        "count": 6,
+                                                        "count": Number,
                                                         "values": [
                                                           false,
                                                           false,
@@ -608,69 +608,69 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Boolean",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "value",
                                                     "path": "menuSections.advertRowCards.productCardForm.quantity.value",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Null",
                                                         "bsonType": "Null",
                                                         "path": "menuSections.advertRowCards.productCardForm.quantity.value",
-                                                        "count": 6,
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "count": Number,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Null",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "size",
                                             "path": "menuSections.advertRowCards.productCardForm.size",
-                                            "count": 6,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.advertRowCards.productCardForm.size",
-                                                "count": 6,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "isDisplayed",
                                                     "path": "menuSections.advertRowCards.productCardForm.size.isDisplayed",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Boolean",
                                                         "bsonType": "Boolean",
                                                         "path": "menuSections.advertRowCards.productCardForm.size.isDisplayed",
-                                                        "count": 6,
+                                                        "count": Number,
                                                         "values": [
                                                           false,
                                                           false,
@@ -679,69 +679,69 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Boolean",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "value",
                                                     "path": "menuSections.advertRowCards.productCardForm.size.value",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Null",
                                                         "bsonType": "Null",
                                                         "path": "menuSections.advertRowCards.productCardForm.size.value",
-                                                        "count": 6,
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "count": Number,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Null",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "type",
                                             "path": "menuSections.advertRowCards.productCardForm.type",
-                                            "count": 6,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.advertRowCards.productCardForm.type",
-                                                "count": 6,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "isDisplayed",
                                                     "path": "menuSections.advertRowCards.productCardForm.type.isDisplayed",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Boolean",
                                                         "bsonType": "Boolean",
                                                         "path": "menuSections.advertRowCards.productCardForm.type.isDisplayed",
-                                                        "count": 6,
+                                                        "count": Number,
                                                         "values": [
                                                           false,
                                                           false,
@@ -750,68 +750,68 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Boolean",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "value",
                                                     "path": "menuSections.advertRowCards.productCardForm.type.value",
-                                                    "count": 6,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Null",
                                                         "bsonType": "Null",
                                                         "path": "menuSections.advertRowCards.productCardForm.type.value",
-                                                        "count": 6,
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 1,
+                                                        "count": Number,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 6,
+                                                    "total_count": Number,
                                                     "type": "Null",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 6,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           }
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1
+                                        "total_count": Number,
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 6,
+                                    "total_count": Number,
                                     "type": "Document",
                                     "has_duplicates": false,
-                                    "probability": 1
+                                    "probability": Number
                                   },
                                   {
                                     "name": "title",
                                     "path": "menuSections.advertRowCards.title",
-                                    "count": 6,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "String",
                                         "bsonType": "String",
                                         "path": "menuSections.advertRowCards.title",
-                                        "count": 6,
+                                        "count": Number,
                                         "values": [
                                           "OREO� COOKIE PAPA BITES",
                                           "CHICKEN PARMESAN PAPA BITES",
@@ -820,27 +820,27 @@ const menuSchema = new Schema({
                                           "CHICKEN PARMESAN PAPA BITES",
                                           "JALAPE�O PAPA BITES"
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1,
-                                        "unique": 3,
+                                        "total_count": Number,
+                                        "probability": Number,
+                                        "unique": Number,
                                         "has_duplicates": true
                                       }
                                     ],
-                                    "total_count": 6,
+                                    "total_count": Number,
                                     "type": "String",
                                     "has_duplicates": true,
-                                    "probability": 1
+                                    "probability": Number
                                   },
                                   {
                                     "name": "type",
                                     "path": "menuSections.advertRowCards.type",
-                                    "count": 6,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "String",
                                         "bsonType": "String",
                                         "path": "menuSections.advertRowCards.type",
-                                        "count": 6,
+                                        "count": Number,
                                         "values": [
                                           "advertRowCard",
                                           "advertRowCard",
@@ -849,20 +849,20 @@ const menuSchema = new Schema({
                                           "advertRowCard",
                                           "advertRowCard"
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1,
-                                        "unique": 1,
+                                        "total_count": Number,
+                                        "probability": Number,
+                                        "unique": Number,
                                         "has_duplicates": true
                                       }
                                     ],
-                                    "total_count": 6,
+                                    "total_count": Number,
                                     "type": "String",
                                     "has_duplicates": true,
-                                    "probability": 1
+                                    "probability": Number
                                   }
                                 ],
-                                "total_count": 0,
-                                "probability": 1
+                                "total_count": Number,
+                                "probability": Number
                               }
                             ],
                             "lengths": [
@@ -870,22 +870,22 @@ const menuSchema = new Schema({
                               2,
                               3
                             ],
-                            "total_count": 6,
+                            "total_count": Number,
                             "probability": 0.15,
-                            "average_length": 2
+                            "average_length": Number
                           },
                           {
                             "name": "Undefined",
                             "type": "Undefined",
                             "path": "menuSections.advertRowCards",
-                            "count": 17,
-                            "total_count": 0,
+                            "count": Number,
+                            "total_count": Number,
                             "probability": 0.85,
-                            "unique": 1,
+                            "unique": Number,
                             "has_duplicates": true
                           }
                         ],
-                        "total_count": 20,
+                        "total_count": Number,
                         "type": [
                           "Undefined",
                           "Array"
@@ -896,495 +896,495 @@ const menuSchema = new Schema({
                       {
                         "name": "bannerCard",
                         "path": "menuSections.bannerCard",
-                        "count": 1,
+                        "count": Number,
                         "types": [
                           {
                             "name": "Document",
                             "bsonType": "Document",
                             "path": "menuSections.bannerCard",
-                            "count": 1,
+                            "count": Number,
                             "fields": [
                               {
                                 "name": "buttonGroup",
                                 "path": "menuSections.bannerCard.buttonGroup",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Array",
                                     "bsonType": "Array",
                                     "path": "menuSections.bannerCard.buttonGroup",
-                                    "count": 1,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "Document",
                                         "bsonType": "Document",
                                         "path": "menuSections.bannerCard.buttonGroup",
-                                        "count": 1,
+                                        "count": Number,
                                         "fields": [
                                           {
                                             "name": "buttonFunction",
                                             "path": "menuSections.bannerCard.buttonGroup.buttonFunction",
-                                            "count": 1,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.bannerCard.buttonGroup.buttonFunction",
-                                                "count": 1,
+                                                "count": Number,
                                                 "values": [
                                                   "customizeFunction"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 1,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "buttonStyle",
                                             "path": "menuSections.bannerCard.buttonGroup.buttonStyle",
-                                            "count": 1,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.bannerCard.buttonGroup.buttonStyle",
-                                                "count": 1,
+                                                "count": Number,
                                                 "values": [
                                                   "dark"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 1,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "buttonText",
                                             "path": "menuSections.bannerCard.buttonGroup.buttonText",
-                                            "count": 1,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.bannerCard.buttonGroup.buttonText",
-                                                "count": 1,
+                                                "count": Number,
                                                 "values": [
                                                   "ADD & CUSTOMIZE"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 1,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "id",
                                             "path": "menuSections.bannerCard.buttonGroup.id",
-                                            "count": 1,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.bannerCard.buttonGroup.id",
-                                                "count": 1,
+                                                "count": Number,
                                                 "values": [
                                                   "BTN08"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 1,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           }
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1
+                                        "total_count": Number,
+                                        "probability": Number
                                       }
                                     ],
                                     "lengths": [
                                       1
                                     ],
-                                    "total_count": 1,
-                                    "probability": 1,
-                                    "average_length": 1
+                                    "total_count": Number,
+                                    "probability": Number,
+                                    "average_length": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Array",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "description",
                                 "path": "menuSections.bannerCard.description",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "String",
                                     "bsonType": "String",
                                     "path": "menuSections.bannerCard.description",
-                                    "count": 1,
+                                    "count": Number,
                                     "values": [
                                       "Choose your topping. Cheese your crust. Epicness is now even easier. Indulge in your favorite 1-topping pizza now paired with a pillowy, cheese-filled crust."
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1,
-                                    "unique": 1,
+                                    "total_count": Number,
+                                    "probability": Number,
+                                    "unique": Number,
                                     "has_duplicates": false
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "String",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "details",
                                 "path": "menuSections.bannerCard.details",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Document",
                                     "bsonType": "Document",
                                     "path": "menuSections.bannerCard.details",
-                                    "count": 1,
+                                    "count": Number,
                                     "fields": [
                                       {
                                         "name": "detailsUrl",
                                         "path": "menuSections.bannerCard.details.detailsUrl",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.bannerCard.details.detailsUrl",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "details1Url"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       },
                                       {
                                         "name": "text",
                                         "path": "menuSections.bannerCard.details.text",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.bannerCard.details.text",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "Details"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1
+                                    "total_count": Number,
+                                    "probability": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Document",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "image",
                                 "path": "menuSections.bannerCard.image",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Document",
                                     "bsonType": "Document",
                                     "path": "menuSections.bannerCard.image",
-                                    "count": 1,
+                                    "count": Number,
                                     "fields": [
                                       {
                                         "name": "imageName",
                                         "path": "menuSections.bannerCard.image.imageName",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.bannerCard.image.imageName",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "advert1"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       },
                                       {
                                         "name": "imageUrl",
                                         "path": "menuSections.bannerCard.image.imageUrl",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.bannerCard.image.imageUrl",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "/Pizza_ShopFE/static/media/pizza-landscape.abae4e70931f1e5af1a8.jpg"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1
+                                    "total_count": Number,
+                                    "probability": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Document",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "interestFlag",
                                 "path": "menuSections.bannerCard.interestFlag",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Document",
                                     "bsonType": "Document",
                                     "path": "menuSections.bannerCard.interestFlag",
-                                    "count": 1,
+                                    "count": Number,
                                     "fields": [
                                       {
                                         "name": "isDisplayed",
                                         "path": "menuSections.bannerCard.interestFlag.isDisplayed",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "Boolean",
                                             "bsonType": "Boolean",
                                             "path": "menuSections.bannerCard.interestFlag.isDisplayed",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               true
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "Boolean",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       },
                                       {
                                         "name": "text",
                                         "path": "menuSections.bannerCard.interestFlag.text",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.bannerCard.interestFlag.text",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "Limited Time"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1
+                                    "total_count": Number,
+                                    "probability": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Document",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "price",
                                 "path": "menuSections.bannerCard.price",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Double",
                                     "bsonType": "Double",
                                     "path": "menuSections.bannerCard.price",
-                                    "count": 1,
+                                    "count": Number,
                                     "values": [
-                                      13.99
+                                      Decimal128
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1,
-                                    "unique": 1,
+                                    "total_count": Number,
+                                    "probability": Number,
+                                    "unique": Number,
                                     "has_duplicates": false
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Double",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "title",
                                 "path": "menuSections.bannerCard.title",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "String",
                                     "bsonType": "String",
                                     "path": "menuSections.bannerCard.title",
-                                    "count": 1,
+                                    "count": Number,
                                     "values": [
                                       "EPIC STUFFED CRUST PIZZA"
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1,
-                                    "unique": 1,
+                                    "total_count": Number,
+                                    "probability": Number,
+                                    "unique": Number,
                                     "has_duplicates": false
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "String",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               }
                             ],
-                            "total_count": 0,
+                            "total_count": Number,
                             "probability": 0.05
                           },
                           {
                             "name": "Undefined",
                             "type": "Undefined",
                             "path": "menuSections.bannerCard",
-                            "count": 19,
-                            "total_count": 0,
-                            "probability": 0.95,
-                            "unique": 1,
+                            "count": Number,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": true
                           }
                         ],
-                        "total_count": 20,
+                        "total_count": Number,
                         "type": [
                           "Undefined",
                           "Document"
                         ],
                         "has_duplicates": true,
-                        "probability": 0.05
+                        "probability": Decimal128
                       },
                       {
                         "name": "description",
                         "path": "menuSections.description",
-                        "count": 20,
+                        "count": Number,
                         "types": [
                           {
                             "name": "Null",
                             "bsonType": "Null",
                             "path": "menuSections.description",
-                            "count": 18,
-                            "total_count": 0,
-                            "probability": 0.9,
-                            "unique": 1,
+                            "count": Number,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": true
                           },
                           {
                             "name": "String",
                             "bsonType": "String",
                             "path": "menuSections.description",
-                            "count": 2,
+                            "count": Number,
                             "values": [
                               "A layer of buttery, toasted parmesan cheese baked on the underside of our signature thin crust.",
                               "Eight tasty pop-able morsels can be enjoyed in three exciting NEW flavors:"
                             ],
-                            "total_count": 0,
-                            "probability": 0.1,
-                            "unique": 2,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": false
                           }
                         ],
-                        "total_count": 20,
+                        "total_count": Number,
                         "type": [
                           "Null",
                           "String"
                         ],
                         "has_duplicates": true,
-                        "probability": 1
+                        "probability": Number
                       },
                       {
                         "name": "id",
                         "path": "menuSections.id",
-                        "count": 8,
+                        "count": Number,
                         "types": [
                           {
                             "name": "String",
                             "bsonType": "String",
                             "path": "menuSections.id",
-                            "count": 8,
+                            "count": Number,
                             "values": [
                               "S0",
                               "S1",
@@ -1395,85 +1395,85 @@ const menuSchema = new Schema({
                               "S6",
                               "S7"
                             ],
-                            "total_count": 0,
-                            "probability": 0.4,
-                            "unique": 8,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": false
                           },
                           {
                             "name": "Undefined",
                             "type": "Undefined",
                             "path": "menuSections.id",
-                            "count": 12,
-                            "total_count": 0,
-                            "probability": 0.6,
-                            "unique": 1,
+                            "count": Number,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": true
                           }
                         ],
-                        "total_count": 20,
+                        "total_count": Number,
                         "type": [
                           "Undefined",
                           "String"
                         ],
                         "has_duplicates": true,
-                        "probability": 0.4
+                        "probability": Decimal128
                       },
                       {
                         "name": "menuCarousel",
                         "path": "menuSections.menuCarousel",
-                        "count": 1,
+                        "count": Number,
                         "types": [
                           {
                             "name": "Document",
                             "bsonType": "Document",
                             "path": "menuSections.menuCarousel",
-                            "count": 1,
+                            "count": Number,
                             "fields": [
                               {
                                 "name": "carouselCards",
                                 "path": "menuSections.menuCarousel.carouselCards",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Array",
                                     "bsonType": "Array",
                                     "path": "menuSections.menuCarousel.carouselCards",
-                                    "count": 1,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "Document",
                                         "bsonType": "Document",
                                         "path": "menuSections.menuCarousel.carouselCards",
-                                        "count": 7,
+                                        "count": Number,
                                         "fields": [
                                           {
                                             "name": "buttonGroup",
                                             "path": "menuSections.menuCarousel.carouselCards.buttonGroup",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Array",
                                                 "bsonType": "Array",
                                                 "path": "menuSections.menuCarousel.carouselCards.buttonGroup",
-                                                "count": 7,
+                                                "count": Number,
                                                 "types": [
                                                   {
                                                     "name": "Document",
                                                     "bsonType": "Document",
                                                     "path": "menuSections.menuCarousel.carouselCards.buttonGroup",
-                                                    "count": 7,
+                                                    "count": Number,
                                                     "fields": [
                                                       {
                                                         "name": "buttonFunction",
                                                         "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonFunction",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "types": [
                                                           {
                                                             "name": "String",
                                                             "bsonType": "String",
                                                             "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonFunction",
-                                                            "count": 7,
+                                                            "count": Number,
                                                             "values": [
                                                               "customizeFunction",
                                                               "customizeFunction",
@@ -1483,27 +1483,27 @@ const menuSchema = new Schema({
                                                               "customizeFunction",
                                                               "customizeFunction"
                                                             ],
-                                                            "total_count": 0,
-                                                            "probability": 1,
-                                                            "unique": 1,
+                                                            "total_count": Number,
+                                                            "probability": Number,
+                                                            "unique": Number,
                                                             "has_duplicates": true
                                                           }
                                                         ],
-                                                        "total_count": 7,
+                                                        "total_count": Number,
                                                         "type": "String",
                                                         "has_duplicates": true,
-                                                        "probability": 1
+                                                        "probability": Number
                                                       },
                                                       {
                                                         "name": "buttonStyle",
                                                         "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonStyle",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "types": [
                                                           {
                                                             "name": "String",
                                                             "bsonType": "String",
                                                             "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonStyle",
-                                                            "count": 7,
+                                                            "count": Number,
                                                             "values": [
                                                               "dark",
                                                               "dark",
@@ -1513,27 +1513,27 @@ const menuSchema = new Schema({
                                                               "dark",
                                                               "dark"
                                                             ],
-                                                            "total_count": 0,
-                                                            "probability": 1,
-                                                            "unique": 1,
+                                                            "total_count": Number,
+                                                            "probability": Number,
+                                                            "unique": Number,
                                                             "has_duplicates": true
                                                           }
                                                         ],
-                                                        "total_count": 7,
+                                                        "total_count": Number,
                                                         "type": "String",
                                                         "has_duplicates": true,
-                                                        "probability": 1
+                                                        "probability": Number
                                                       },
                                                       {
                                                         "name": "buttonText",
                                                         "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonText",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "types": [
                                                           {
                                                             "name": "String",
                                                             "bsonType": "String",
                                                             "path": "menuSections.menuCarousel.carouselCards.buttonGroup.buttonText",
-                                                            "count": 7,
+                                                            "count": Number,
                                                             "values": [
                                                               "Customize",
                                                               "Customize",
@@ -1543,51 +1543,51 @@ const menuSchema = new Schema({
                                                               "Customize",
                                                               "Customize"
                                                             ],
-                                                            "total_count": 0,
-                                                            "probability": 1,
-                                                            "unique": 1,
+                                                            "total_count": Number,
+                                                            "probability": Number,
+                                                            "unique": Number,
                                                             "has_duplicates": true
                                                           }
                                                         ],
-                                                        "total_count": 7,
+                                                        "total_count": Number,
                                                         "type": "String",
                                                         "has_duplicates": true,
-                                                        "probability": 1
+                                                        "probability": Number
                                                       }
                                                     ],
-                                                    "total_count": 0,
-                                                    "probability": 1
+                                                    "total_count": Number,
+                                                    "probability": Number
                                                   }
                                                 ],
                                                 "lengths": [
-                                                  1,
-                                                  1,
-                                                  1,
-                                                  1,
-                                                  1,
-                                                  1,
-                                                  1
+                                                  Number,
+                                                  Number,
+                                                  Number,
+                                                  Number,
+                                                  Number,
+                                                  Number,
+                                                  Number
                                                 ],
-                                                "total_count": 7,
-                                                "probability": 1,
-                                                "average_length": 1
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "average_length": Number
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "Array",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "description",
                                             "path": "menuSections.menuCarousel.carouselCards.description",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.menuCarousel.carouselCards.description",
-                                                "count": 7,
+                                                "count": Number,
                                                 "values": [
                                                   "Our signature dough. Fresh, never frozen. Made with 6 simple ingredients & hand-tossed.",
                                                   "A layer of buttery, toasted parmesan cheese baked on the underside of our signature thin crust.",
@@ -1597,38 +1597,38 @@ const menuSchema = new Schema({
                                                   "Lighter than our Original Crust, and just a little bit crispy.",
                                                   "Made with sorghum, teff, amaranth and quinoa. Not recommended for those with Celiac Disease."
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 7,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": NumberNumber
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "image",
                                             "path": "menuSections.menuCarousel.carouselCards.image",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.menuCarousel.carouselCards.image",
-                                                "count": 7,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "imageName",
                                                     "path": "menuSections.menuCarousel.carouselCards.image.imageName",
-                                                    "count": 7,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "String",
                                                         "bsonType": "String",
                                                         "path": "menuSections.menuCarousel.carouselCards.image.imageName",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "values": [
                                                           "Name1",
                                                           "Name2",
@@ -1638,27 +1638,27 @@ const menuSchema = new Schema({
                                                           "Name6",
                                                           "Name7"
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 7,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": false
                                                       }
                                                     ],
-                                                    "total_count": 7,
+                                                    "total_count": Number,
                                                     "type": "String",
                                                     "has_duplicates": false,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "imageUrl",
                                                     "path": "menuSections.menuCarousel.carouselCards.image.imageUrl",
-                                                    "count": 7,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "String",
                                                         "bsonType": "String",
                                                         "path": "menuSections.menuCarousel.carouselCards.image.imageUrl",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "values": [
                                                           "name1Url.png",
                                                           "name2Url.png",
@@ -1668,48 +1668,48 @@ const menuSchema = new Schema({
                                                           "name6Url.png",
                                                           "name7Url.png"
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 7,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": false
                                                       }
                                                     ],
-                                                    "total_count": 7,
+                                                    "total_count": Number,
                                                     "type": "String",
                                                     "has_duplicates": false,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "interestFlag",
                                             "path": "menuSections.menuCarousel.carouselCards.interestFlag",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "Document",
                                                 "bsonType": "Document",
                                                 "path": "menuSections.menuCarousel.carouselCards.interestFlag",
-                                                "count": 7,
+                                                "count": Number,
                                                 "fields": [
                                                   {
                                                     "name": "isDisplayed",
                                                     "path": "menuSections.menuCarousel.carouselCards.interestFlag.isDisplayed",
-                                                    "count": 7,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Boolean",
                                                         "bsonType": "Boolean",
                                                         "path": "menuSections.menuCarousel.carouselCards.interestFlag.isDisplayed",
-                                                        "count": 7,
+                                                        "count": Number,
                                                         "values": [
                                                           false,
                                                           true,
@@ -1719,74 +1719,74 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 1,
-                                                        "unique": 2,
+                                                        "total_count": Number,
+                                                        "probability": Number,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       }
                                                     ],
-                                                    "total_count": 7,
+                                                    "total_count": Number,
                                                     "type": "Boolean",
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   },
                                                   {
                                                     "name": "text",
                                                     "path": "menuSections.menuCarousel.carouselCards.interestFlag.text",
-                                                    "count": 7,
+                                                    "count": Number,
                                                     "types": [
                                                       {
                                                         "name": "Null",
                                                         "bsonType": "Null",
                                                         "path": "menuSections.menuCarousel.carouselCards.interestFlag.text",
-                                                        "count": 6,
-                                                        "total_count": 0,
-                                                        "probability": 0.8571428571428571,
-                                                        "unique": 1,
+                                                        "count": Number,
+                                                        "total_count": Number,
+                                                        "probability": Decimal128,
+                                                        "unique": Number,
                                                         "has_duplicates": true
                                                       },
                                                       {
                                                         "name": "String",
                                                         "bsonType": "String",
                                                         "path": "menuSections.menuCarousel.carouselCards.interestFlag.text",
-                                                        "count": 1,
+                                                        "count": Number,
                                                         "values": [
                                                           "LIMITED TIME"
                                                         ],
-                                                        "total_count": 0,
-                                                        "probability": 0.14285714285714285,
-                                                        "unique": 1,
+                                                        "total_count": Number,
+                                                        "probability": Decimal128,
+                                                        "unique": Number,
                                                         "has_duplicates": false
                                                       }
                                                     ],
-                                                    "total_count": 7,
+                                                    "total_count": Number,
                                                     "type": [
                                                       "Null",
                                                       "String"
                                                     ],
                                                     "has_duplicates": true,
-                                                    "probability": 1
+                                                    "probability": Number
                                                   }
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1
+                                                "total_count": Number,
+                                                "probability": Number
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "Document",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "title",
                                             "path": "menuSections.menuCarousel.carouselCards.title",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.menuCarousel.carouselCards.title",
-                                                "count": 7,
+                                                "count": Number,
                                                 "values": [
                                                   "Original Crust",
                                                   "Crispy Parm Crust",
@@ -1796,27 +1796,27 @@ const menuSchema = new Schema({
                                                   "Thin Crust",
                                                   "Gluten-Free Crust"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 7,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": false
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": false,
-                                            "probability": 1
+                                            "probability": Number
                                           },
                                           {
                                             "name": "type",
                                             "path": "menuSections.menuCarousel.carouselCards.type",
-                                            "count": 7,
+                                            "count": Number,
                                             "types": [
                                               {
                                                 "name": "String",
                                                 "bsonType": "String",
                                                 "path": "menuSections.menuCarousel.carouselCards.type",
-                                                "count": 7,
+                                                "count": Number,
                                                 "values": [
                                                   "menuCarouselCard",
                                                   "menuCarouselCard",
@@ -1826,178 +1826,178 @@ const menuSchema = new Schema({
                                                   "menuCarouselCard",
                                                   "menuCarouselCard"
                                                 ],
-                                                "total_count": 0,
-                                                "probability": 1,
-                                                "unique": 1,
+                                                "total_count": Number,
+                                                "probability": Number,
+                                                "unique": Number,
                                                 "has_duplicates": true
                                               }
                                             ],
-                                            "total_count": 7,
+                                            "total_count": Number,
                                             "type": "String",
                                             "has_duplicates": true,
-                                            "probability": 1
+                                            "probability": Number
                                           }
                                         ],
-                                        "total_count": 0,
-                                        "probability": 1
+                                        "total_count": Number,
+                                        "probability": Number
                                       }
                                     ],
                                     "lengths": [
-                                      7
+                                      Number
                                     ],
-                                    "total_count": 7,
-                                    "probability": 1,
-                                    "average_length": 7
+                                    "total_count": Number,
+                                    "probability": Number,
+                                    "average_length": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Array",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               },
                               {
                                 "name": "leadCard",
                                 "path": "menuSections.menuCarousel.leadCard",
-                                "count": 1,
+                                "count": Number,
                                 "types": [
                                   {
                                     "name": "Document",
                                     "bsonType": "Document",
                                     "path": "menuSections.menuCarousel.leadCard",
-                                    "count": 1,
+                                    "count": Number,
                                     "fields": [
                                       {
                                         "name": "description",
                                         "path": "menuSections.menuCarousel.leadCard.description",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.menuCarousel.leadCard.description",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               " Get started with one of our signature crusts"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       },
                                       {
                                         "name": "title",
                                         "path": "menuSections.menuCarousel.leadCard.title",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.menuCarousel.leadCard.title",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "CREATE YOUR OWN PIZZA"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       },
                                       {
                                         "name": "type",
                                         "path": "menuSections.menuCarousel.leadCard.type",
-                                        "count": 1,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "String",
                                             "bsonType": "String",
                                             "path": "menuSections.menuCarousel.leadCard.type",
-                                            "count": 1,
+                                            "count": Number,
                                             "values": [
                                               "leadCarouselCard"
                                             ],
-                                            "total_count": 0,
-                                            "probability": 1,
-                                            "unique": 1,
+                                            "total_count": Number,
+                                            "probability": Number,
+                                            "unique": Number,
                                             "has_duplicates": false
                                           }
                                         ],
-                                        "total_count": 1,
+                                        "total_count": Number,
                                         "type": "String",
                                         "has_duplicates": false,
-                                        "probability": 1
+                                        "probability": Number
                                       }
                                     ],
-                                    "total_count": 0,
-                                    "probability": 1
+                                    "total_count": Number,
+                                    "probability": Number
                                   }
                                 ],
-                                "total_count": 1,
+                                "total_count": Number,
                                 "type": "Document",
                                 "has_duplicates": false,
-                                "probability": 1
+                                "probability": Number
                               }
                             ],
-                            "total_count": 0,
-                            "probability": 0.05
+                            "total_count": Number,
+                            "probability": Decimal128
                           },
                           {
                             "name": "Undefined",
                             "type": "Undefined",
                             "path": "menuSections.menuCarousel",
-                            "count": 19,
-                            "total_count": 0,
-                            "probability": 0.95,
-                            "unique": 1,
+                            "count": Number,
+                            "total_count": Number,
+                            "probability": Decimal128,
+                            "unique": Number,
                             "has_duplicates": true
                           }
                         ],
-                        "total_count": 20,
+                        "total_count": Number,
                         "type": [
                           "Undefined",
                           "Document"
                         ],
                         "has_duplicates": true,
-                        "probability": 0.05
+                        "probability": Decimal128
                       },
                       {
                         "name": "productCards",
                         "path": "menuSections.productCards",
-                        "count": 18,
+                        "count": Number,
                         "types": [
                           {
                             "name": "Array",
                             "bsonType": "Array",
                             "path": "menuSections.productCards",
-                            "count": 18,
+                            "count": Number,
                             "types": [
                               {
                                 "name": "Document",
                                 "bsonType": "Document",
                                 "path": "menuSections.productCards",
-                                "count": 85,
+                                "count": Number,
                                 "fields": [
                                   {
                                     "name": "buttonGroup",
                                     "path": "menuSections.productCards.buttonGroup",
-                                    "count": 85,
+                                    "count": Number,
                                     "types": [
                                       {
                                         "name": "Array",
                                         "bsonType": "Array",
                                         "path": "menuSections.productCards.buttonGroup",
-                                        "count": 85,
+                                        "count": Number,
                                         "types": [
                                           {
                                             "name": "Document",
