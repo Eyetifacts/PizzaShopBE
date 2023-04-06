@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const mongoose = require('mongoose');
-var menu = require('../models/menus');
+var menu = require('../models/menu');
 
 router.get('/menuItems', (req, res, next) => {
     menu.find()
