@@ -427,7 +427,7 @@ const menuSchema = new Schema({
                                                   "NEW RECIPE"
                                                 ],
                                                 "total_count": Number,
-                                                "probability": 0.8333333333333334,
+                                                "probability": Number,
                                                 "unique": Number,
                                                 "has_duplicates": true
                                               },
@@ -437,7 +437,7 @@ const menuSchema = new Schema({
                                                 "path": "menuSections.advertRowCards.interestFlag.text",
                                                 "count": Number,
                                                 "total_count": Number,
-                                                "probability": 0.16666666666666666,
+                                                "probability": Number,
                                                 "unique": Number,
                                                 "has_duplicates": false
                                               }
@@ -871,7 +871,7 @@ const menuSchema = new Schema({
                               3
                             ],
                             "total_count": Number,
-                            "probability": 0.15,
+                            "probability": Number,
                             "average_length": Number
                           },
                           {
@@ -880,7 +880,7 @@ const menuSchema = new Schema({
                             "path": "menuSections.advertRowCards",
                             "count": Number,
                             "total_count": Number,
-                            "probability": 0.85,
+                            "probability": Number,
                             "unique": Number,
                             "has_duplicates": true
                           }
@@ -891,7 +891,7 @@ const menuSchema = new Schema({
                           "Array"
                         ],
                         "has_duplicates": true,
-                        "probability": 0.15
+                        "probability": Number
                       },
                       {
                         "name": "bannerCard",
@@ -1316,7 +1316,7 @@ const menuSchema = new Schema({
                               }
                             ],
                             "total_count": Number,
-                            "probability": 0.05
+                            "probability": Number
                           },
                           {
                             "name": "Undefined",
@@ -2003,18 +2003,18 @@ const menuSchema = new Schema({
                                             "name": "Document",
                                             "bsonType": "Document",
                                             "path": "menuSections.productCards.buttonGroup",
-                                            "count": 117,
+                                            "count": Number,
                                             "fields": [
                                               {
                                                 "name": "buttonFunction",
                                                 "path": "menuSections.productCards.buttonGroup.buttonFunction",
-                                                "count": 117,
+                                                "count": Number,
                                                 "types": [
                                                   {
                                                     "name": "String",
                                                     "bsonType": "String",
                                                     "path": "menuSections.productCards.buttonGroup.buttonFunction",
-                                                    "count": 117,
+                                                    "count": Number,
                                                     "values": [
                                                       "addToOrderFunction",
                                                       "addToOrderFunction",
@@ -2117,13 +2117,13 @@ const menuSchema = new Schema({
                                                       "customizeFunction",
                                                       "customizeFunction"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 2,
                                                     "has_duplicates": true
                                                   }
                                                 ],
-                                                "total_count": 117,
+                                                "total_count": Number,
                                                 "type": "String",
                                                 "has_duplicates": true,
                                                 "probability": 1
@@ -2131,13 +2131,13 @@ const menuSchema = new Schema({
                                               {
                                                 "name": "buttonStyle",
                                                 "path": "menuSections.productCards.buttonGroup.buttonStyle",
-                                                "count": 117,
+                                                "count": Number,
                                                 "types": [
                                                   {
                                                     "name": "String",
                                                     "bsonType": "String",
                                                     "path": "menuSections.productCards.buttonGroup.buttonStyle",
-                                                    "count": 117,
+                                                    "count": Number,
                                                     "values": [
                                                       "dark",
                                                       "dark",
@@ -2240,13 +2240,13 @@ const menuSchema = new Schema({
                                                       "light",
                                                       "dark"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 2,
                                                     "has_duplicates": true
                                                   }
                                                 ],
-                                                "total_count": 117,
+                                                "total_count": Number,
                                                 "type": "String",
                                                 "has_duplicates": true,
                                                 "probability": 1
@@ -2254,13 +2254,13 @@ const menuSchema = new Schema({
                                               {
                                                 "name": "buttonText",
                                                 "path": "menuSections.productCards.buttonGroup.buttonText",
-                                                "count": 117,
+                                                "count": Number,
                                                 "types": [
                                                   {
                                                     "name": "String",
                                                     "bsonType": "String",
                                                     "path": "menuSections.productCards.buttonGroup.buttonText",
-                                                    "count": 117,
+                                                    "count": Number,
                                                     "values": [
                                                       "ADD TO ORDER",
                                                       "ADD TO ORDER",
@@ -2363,13 +2363,13 @@ const menuSchema = new Schema({
                                                       "ADD TO ORDER",
                                                       "CUSTOMIZE"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 2,
                                                     "has_duplicates": true
                                                   }
                                                 ],
-                                                "total_count": 117,
+                                                "total_count": Number,
                                                 "type": "String",
                                                 "has_duplicates": true,
                                                 "probability": 1
@@ -2384,7 +2384,7 @@ const menuSchema = new Schema({
                                                     "type": "Undefined",
                                                     "path": "menuSections.productCards.buttonGroup.id",
                                                     "count": 77,
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 0.6581196581196581,
                                                     "unique": 1,
                                                     "has_duplicates": true
@@ -2436,13 +2436,13 @@ const menuSchema = new Schema({
                                                       "BTN00",
                                                       "BTN01"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 0.3418803418803419,
                                                     "unique": 9,
                                                     "has_duplicates": true
                                                   }
                                                 ],
-                                                "total_count": 117,
+                                                "total_count": Number,
                                                 "type": [
                                                   "Undefined",
                                                   "String"
@@ -2451,7 +2451,7 @@ const menuSchema = new Schema({
                                                 "probability": 0.3418803418803419
                                               }
                                             ],
-                                            "total_count": 0,
+                                            "total_count": Number,
                                             "probability": 1
                                           }
                                         ],
@@ -2542,7 +2542,7 @@ const menuSchema = new Schema({
                                           2,
                                           1
                                         ],
-                                        "total_count": 117,
+                                        "total_count": Number,
                                         "probability": 1,
                                         "average_length": 1.3764705882352941
                                       }
@@ -2562,7 +2562,7 @@ const menuSchema = new Schema({
                                         "type": "Undefined",
                                         "path": "menuSections.productCards.cardType",
                                         "count": 60,
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.7058823529411765,
                                         "unique": 1,
                                         "has_duplicates": true
@@ -2599,7 +2599,7 @@ const menuSchema = new Schema({
                                           "ProductCard",
                                           "ProductCard"
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.29411764705882354,
                                         "unique": 3,
                                         "has_duplicates": true
@@ -2701,7 +2701,7 @@ const menuSchema = new Schema({
                                           "360 cal /slice, 8 slices",
                                           "300 cal /slice, 8 slices"
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.8941176470588236,
                                         "unique": 62,
                                         "has_duplicates": true
@@ -2711,7 +2711,7 @@ const menuSchema = new Schema({
                                         "bsonType": "Null",
                                         "path": "menuSections.productCards.description",
                                         "count": 9,
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.10588235294117647,
                                         "unique": 1,
                                         "has_duplicates": true
@@ -2829,7 +2829,7 @@ const menuSchema = new Schema({
                                                   "details1Url",
                                                   "details1Url"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.9529411764705882,
                                                 "unique": 2,
                                                 "has_duplicates": true
@@ -2839,7 +2839,7 @@ const menuSchema = new Schema({
                                                 "bsonType": "Null",
                                                 "path": "menuSections.productCards.details.detailsUrl",
                                                 "count": 4,
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.047058823529411764,
                                                 "unique": 1,
                                                 "has_duplicates": true
@@ -2946,7 +2946,7 @@ const menuSchema = new Schema({
                                                   "Detail",
                                                   "Details"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.9529411764705882,
                                                 "unique": 2,
                                                 "has_duplicates": true
@@ -2956,7 +2956,7 @@ const menuSchema = new Schema({
                                                 "bsonType": "Null",
                                                 "path": "menuSections.productCards.details.text",
                                                 "count": 4,
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.047058823529411764,
                                                 "unique": 1,
                                                 "has_duplicates": true
@@ -2971,7 +2971,7 @@ const menuSchema = new Schema({
                                             "probability": 1
                                           }
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 1
                                       }
                                     ],
@@ -2990,7 +2990,7 @@ const menuSchema = new Schema({
                                         "type": "Undefined",
                                         "path": "menuSections.productCards.id",
                                         "count": 60,
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.7058823529411765,
                                         "unique": 1,
                                         "has_duplicates": true
@@ -3023,7 +3023,7 @@ const menuSchema = new Schema({
                                           "30",
                                           "31"
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.24705882352941178,
                                         "unique": 14,
                                         "has_duplicates": true
@@ -3034,12 +3034,12 @@ const menuSchema = new Schema({
                                         "path": "menuSections.productCards.id",
                                         "count": 4,
                                         "values": [
-                                          0,
+                                          Number,
                                           1,
                                           2,
                                           3
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.047058823529411764,
                                         "unique": 4,
                                         "has_duplicates": false
@@ -3162,7 +3162,7 @@ const menuSchema = new Schema({
                                                   "card2",
                                                   "card1"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1,
                                                 "unique": 14,
                                                 "has_duplicates": true
@@ -3270,7 +3270,7 @@ const menuSchema = new Schema({
                                                   "/Pizza_ShopFE/static/media/normal-bake.86bc03821eeff3cdadfd.png",
                                                   "/Pizza_ShopFE/static/media/normal-bake.86bc03821eeff3cdadfd.png"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1,
                                                 "unique": 2,
                                                 "has_duplicates": true
@@ -3282,7 +3282,7 @@ const menuSchema = new Schema({
                                             "probability": 1
                                           }
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 1
                                       }
                                     ],
@@ -3399,7 +3399,7 @@ const menuSchema = new Schema({
                                                   false,
                                                   false
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1,
                                                 "unique": 2,
                                                 "has_duplicates": true
@@ -3420,7 +3420,7 @@ const menuSchema = new Schema({
                                                 "bsonType": "Null",
                                                 "path": "menuSections.productCards.interestFlag.text",
                                                 "count": 80,
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.9411764705882353,
                                                 "unique": 1,
                                                 "has_duplicates": true
@@ -3437,7 +3437,7 @@ const menuSchema = new Schema({
                                                   "LIMITED TIME",
                                                   "LIMITED TIME"
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 0.058823529411764705,
                                                 "unique": 3,
                                                 "has_duplicates": true
@@ -3452,7 +3452,7 @@ const menuSchema = new Schema({
                                             "probability": 1
                                           }
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 1
                                       }
                                     ],
@@ -3524,7 +3524,7 @@ const menuSchema = new Schema({
                                           12.5,
                                           8.49
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.6,
                                         "unique": 17,
                                         "has_duplicates": true
@@ -3570,7 +3570,7 @@ const menuSchema = new Schema({
                                           19,
                                           19
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.4,
                                         "unique": 4,
                                         "has_duplicates": true
@@ -3682,7 +3682,7 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 1,
                                                         "unique": 2,
                                                         "has_duplicates": true
@@ -3703,7 +3703,7 @@ const menuSchema = new Schema({
                                                         "bsonType": "Null",
                                                         "path": "menuSections.productCards.productCardForm.flavor.value",
                                                         "count": 33,
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.515625,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -3746,7 +3746,7 @@ const menuSchema = new Schema({
                                                           "Pizza Sauce",
                                                           "Pizza Sauce"
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.484375,
                                                         "unique": 5,
                                                         "has_duplicates": true
@@ -3761,7 +3761,7 @@ const menuSchema = new Schema({
                                                     "probability": 1
                                                   }
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1
                                               }
                                             ],
@@ -3857,7 +3857,7 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 1,
                                                         "unique": 2,
                                                         "has_duplicates": true
@@ -3937,7 +3937,7 @@ const menuSchema = new Schema({
                                                           1,
                                                           1
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.890625,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -3947,7 +3947,7 @@ const menuSchema = new Schema({
                                                         "bsonType": "Null",
                                                         "path": "menuSections.productCards.productCardForm.quantity.value",
                                                         "count": 7,
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.109375,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -3962,7 +3962,7 @@ const menuSchema = new Schema({
                                                     "probability": 1
                                                   }
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1
                                               }
                                             ],
@@ -4058,7 +4058,7 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 1,
                                                         "unique": 2,
                                                         "has_duplicates": true
@@ -4138,7 +4138,7 @@ const menuSchema = new Schema({
                                                           "Banana Peppers",
                                                           "Anchovies"
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.890625,
                                                         "unique": 35,
                                                         "has_duplicates": true
@@ -4148,7 +4148,7 @@ const menuSchema = new Schema({
                                                         "bsonType": "Null",
                                                         "path": "menuSections.productCards.productCardForm.size.value",
                                                         "count": 7,
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.109375,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -4163,7 +4163,7 @@ const menuSchema = new Schema({
                                                     "probability": 1
                                                   }
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1
                                               }
                                             ],
@@ -4259,7 +4259,7 @@ const menuSchema = new Schema({
                                                           false,
                                                           false
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 1,
                                                         "unique": 2,
                                                         "has_duplicates": true
@@ -4280,7 +4280,7 @@ const menuSchema = new Schema({
                                                         "bsonType": "Null",
                                                         "path": "menuSections.productCards.productCardForm.type.value",
                                                         "count": 58,
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.90625,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -4298,7 +4298,7 @@ const menuSchema = new Schema({
                                                           "Normal Bake",
                                                           "Normal Bake"
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 0.09375,
                                                         "unique": 1,
                                                         "has_duplicates": true
@@ -4313,7 +4313,7 @@ const menuSchema = new Schema({
                                                     "probability": 1
                                                   }
                                                 ],
-                                                "total_count": 0,
+                                                "total_count": Number,
                                                 "probability": 1
                                               }
                                             ],
@@ -4323,7 +4323,7 @@ const menuSchema = new Schema({
                                             "probability": 1
                                           }
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.7529411764705882
                                       },
                                       {
@@ -4426,7 +4426,7 @@ const menuSchema = new Schema({
                                                       "border-2 mx-2 my-1 pl-2 py-3 rounded-lg text-xl border-gray-300 w-360",
                                                       "border-2 mx-2 my-1 pl-2 py-3 rounded-lg text-xl border-gray-300 w-360"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 5,
                                                     "has_duplicates": true
@@ -4525,7 +4525,7 @@ const menuSchema = new Schema({
                                                       "type",
                                                       "flavor"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 4,
                                                     "has_duplicates": true
@@ -4624,7 +4624,7 @@ const menuSchema = new Schema({
                                                       "S8F2",
                                                       "S8F3"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 27,
                                                     "has_duplicates": true
@@ -4723,7 +4723,7 @@ const menuSchema = new Schema({
                                                       true,
                                                       true
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 1,
                                                     "unique": 2,
                                                     "has_duplicates": true
@@ -4863,7 +4863,7 @@ const menuSchema = new Schema({
                                                                   "49",
                                                                   "glutenFree"
                                                                 ],
-                                                                "total_count": 0,
+                                                                "total_count": Number,
                                                                 "probability": 1,
                                                                 "unique": 54,
                                                                 "has_duplicates": true
@@ -5836,7 +5836,7 @@ const menuSchema = new Schema({
                                                                   49,
                                                                   50
                                                                 ],
-                                                                "total_count": 0,
+                                                                "total_count": Number,
                                                                 "probability": 0.7936507936507936,
                                                                 "unique": 50,
                                                                 "has_duplicates": true
@@ -5948,7 +5948,7 @@ const menuSchema = new Schema({
                                                                   "None",
                                                                   "Garlic Parmesan Cheese"
                                                                 ],
-                                                                "total_count": 0,
+                                                                "total_count": Number,
                                                                 "probability": 0.20634920634920634,
                                                                 "unique": 13,
                                                                 "has_duplicates": true
@@ -5963,7 +5963,7 @@ const menuSchema = new Schema({
                                                             "probability": 1
                                                           }
                                                         ],
-                                                        "total_count": 0,
+                                                        "total_count": Number,
                                                         "probability": 1
                                                       }
                                                     ],
@@ -6124,7 +6124,7 @@ const menuSchema = new Schema({
                                                       "Original Crust",
                                                       "Add Crust Flavor"
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 0.75,
                                                     "unique": 4,
                                                     "has_duplicates": true
@@ -6155,7 +6155,7 @@ const menuSchema = new Schema({
                                                       1,
                                                       1
                                                     ],
-                                                    "total_count": 0,
+                                                    "total_count": Number,
                                                     "probability": 0.25,
                                                     "unique": 1,
                                                     "has_duplicates": true
@@ -6170,7 +6170,7 @@ const menuSchema = new Schema({
                                                 "probability": 1
                                               }
                                             ],
-                                            "total_count": 0,
+                                            "total_count": Number,
                                             "probability": 1
                                           }
                                         ],
@@ -6204,7 +6204,7 @@ const menuSchema = new Schema({
                                         "bsonType": "Null",
                                         "path": "menuSections.productCards.productCardForm",
                                         "count": 1,
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.011764705882352941,
                                         "unique": 1,
                                         "has_duplicates": false
@@ -6214,7 +6214,7 @@ const menuSchema = new Schema({
                                         "type": "Undefined",
                                         "path": "menuSections.productCards.productCardForm",
                                         "count": 1,
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 0.011764705882352941,
                                         "unique": 1,
                                         "has_duplicates": false
@@ -6327,7 +6327,7 @@ const menuSchema = new Schema({
                                           "White Garden Pizza",
                                           "Create Your Own Papa Bowl"
                                         ],
-                                        "total_count": 0,
+                                        "total_count": Number,
                                         "probability": 1,
                                         "unique": 83,
                                         "has_duplicates": true
@@ -6339,7 +6339,7 @@ const menuSchema = new Schema({
                                     "probability": 1
                                   }
                                 ],
-                                "total_count": 0,
+                                "total_count": Number,
                                 "probability": 1
                               }
                             ],
@@ -6372,7 +6372,7 @@ const menuSchema = new Schema({
                             "type": "Undefined",
                             "path": "menuSections.productCards",
                             "count": 2,
-                            "total_count": 0,
+                            "total_count": Number,
                             "probability": 0.1,
                             "unique": 1,
                             "has_duplicates": true
@@ -6418,7 +6418,7 @@ const menuSchema = new Schema({
                               "LOCAL FLAVORS",
                               "PAPA BITES"
                             ],
-                            "total_count": 0,
+                            "total_count": Number,
                             "probability": 1,
                             "unique": 20,
                             "has_duplicates": false
@@ -6461,7 +6461,7 @@ const menuSchema = new Schema({
                               "productCards",
                               "advertRowCard"
                             ],
-                            "total_count": 0,
+                            "total_count": Number,
                             "probability": 1,
                             "unique": 7,
                             "has_duplicates": true
@@ -6473,7 +6473,7 @@ const menuSchema = new Schema({
                         "probability": 1
                       }
                     ],
-                    "total_count": 0,
+                    "total_count": Number,
                     "probability": 1
                   }
                 ],
@@ -6519,7 +6519,7 @@ const menuSchema = new Schema({
                   "pizzaMenu",
                   "papaBitesMenu"
                 ],
-                "total_count": 0,
+                "total_count": Number,
                 "probability": 1,
                 "unique": 9,
                 "has_duplicates": false
@@ -6936,7 +6936,7 @@ const menuSchema = new Schema({
 																						true,
 																						true,
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: true,
@@ -6964,7 +6964,7 @@ const menuSchema = new Schema({
 																						"NEW",
 																						"NEW RECIPE",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.8333333333333334,
 																					unique: 2,
 																					has_duplicates: true,
@@ -6974,7 +6974,7 @@ const menuSchema = new Schema({
 																					bsonType: "Null",
 																					path: "menuSections.advertRowCards.interestFlag.text",
 																					count: 1,
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.16666666666666666,
 																					unique: 1,
 																					has_duplicates: false,
@@ -6986,7 +6986,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -7006,7 +7006,7 @@ const menuSchema = new Schema({
 																	path: "menuSections.advertRowCards.price",
 																	count: 6,
 																	values: [6.29, 6.29, 6.29, 6.29, 6.29, 6.29],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																	unique: 1,
 																	has_duplicates: true,
@@ -7057,7 +7057,7 @@ const menuSchema = new Schema({
 																										true,
 																										true,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7086,7 +7086,7 @@ const menuSchema = new Schema({
 																										"Pizza Sauce",
 																										"Ranch Sauce",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 3,
 																									has_duplicates: true,
@@ -7098,7 +7098,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -7136,7 +7136,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7157,7 +7157,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.advertRowCards.productCardForm.quantity.value",
 																									count: 6,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7169,7 +7169,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -7207,7 +7207,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7228,7 +7228,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.advertRowCards.productCardForm.size.value",
 																									count: 6,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7240,7 +7240,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -7278,7 +7278,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7299,7 +7299,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.advertRowCards.productCardForm.type.value",
 																									count: 6,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 1,
 																									has_duplicates: true,
@@ -7311,7 +7311,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -7321,7 +7321,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -7348,7 +7348,7 @@ const menuSchema = new Schema({
 																		"CHICKEN PARMESAN PAPA BITES",
 																		"JALAPE�O PAPA BITES",
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																	unique: 3,
 																	has_duplicates: true,
@@ -7377,7 +7377,7 @@ const menuSchema = new Schema({
 																		"advertRowCard",
 																		"advertRowCard",
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																	unique: 1,
 																	has_duplicates: true,
@@ -7389,7 +7389,7 @@ const menuSchema = new Schema({
 															probability: 1,
 														},
 													],
-													total_count: 0,
+													total_count: Number,
 													probability: 1,
 												},
 											],
@@ -7403,7 +7403,7 @@ const menuSchema = new Schema({
 											type: "Undefined",
 											path: "menuSections.advertRowCards",
 											count: 17,
-											total_count: 0,
+											total_count: Number,
 											probability: 0.85,
 											unique: 1,
 											has_duplicates: true,
@@ -7453,7 +7453,7 @@ const menuSchema = new Schema({
 																					path: "menuSections.bannerCard.buttonGroup.buttonFunction",
 																					count: 1,
 																					values: ["customizeFunction"],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: false,
@@ -7475,7 +7475,7 @@ const menuSchema = new Schema({
 																					path: "menuSections.bannerCard.buttonGroup.buttonStyle",
 																					count: 1,
 																					values: ["dark"],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: false,
@@ -7497,7 +7497,7 @@ const menuSchema = new Schema({
 																					path: "menuSections.bannerCard.buttonGroup.buttonText",
 																					count: 1,
 																					values: ["ADD & CUSTOMIZE"],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: false,
@@ -7519,7 +7519,7 @@ const menuSchema = new Schema({
 																					path: "menuSections.bannerCard.buttonGroup.id",
 																					count: 1,
 																					values: ["BTN08"],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: false,
@@ -7531,7 +7531,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -7559,7 +7559,7 @@ const menuSchema = new Schema({
 															values: [
 																"Choose your topping. Cheese your crust. Epicness is now even easier. Indulge in your favorite 1-topping pizza now paired with a pillowy, cheese-filled crust.",
 															],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 															unique: 1,
 															has_duplicates: false,
@@ -7592,7 +7592,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.bannerCard.details.detailsUrl",
 																			count: 1,
 																			values: ["details1Url"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7614,7 +7614,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.bannerCard.details.text",
 																			count: 1,
 																			values: ["Details"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7626,7 +7626,7 @@ const menuSchema = new Schema({
 																	probability: 1,
 																},
 															],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 														},
 													],
@@ -7657,7 +7657,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.bannerCard.image.imageName",
 																			count: 1,
 																			values: ["advert1"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7681,7 +7681,7 @@ const menuSchema = new Schema({
 																			values: [
 																				"/Pizza_ShopFE/static/media/pizza-landscape.abae4e70931f1e5af1a8.jpg",
 																			],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7693,7 +7693,7 @@ const menuSchema = new Schema({
 																	probability: 1,
 																},
 															],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 														},
 													],
@@ -7724,7 +7724,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.bannerCard.interestFlag.isDisplayed",
 																			count: 1,
 																			values: [true],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7746,7 +7746,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.bannerCard.interestFlag.text",
 																			count: 1,
 																			values: ["Limited Time"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -7758,7 +7758,7 @@ const menuSchema = new Schema({
 																	probability: 1,
 																},
 															],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 														},
 													],
@@ -7778,7 +7778,7 @@ const menuSchema = new Schema({
 															path: "menuSections.bannerCard.price",
 															count: 1,
 															values: [13.99],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 															unique: 1,
 															has_duplicates: false,
@@ -7800,7 +7800,7 @@ const menuSchema = new Schema({
 															path: "menuSections.bannerCard.title",
 															count: 1,
 															values: ["EPIC STUFFED CRUST PIZZA"],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 															unique: 1,
 															has_duplicates: false,
@@ -7812,7 +7812,7 @@ const menuSchema = new Schema({
 													probability: 1,
 												},
 											],
-											total_count: 0,
+											total_count: Number,
 											probability: 0.05,
 										},
 										{
@@ -7820,7 +7820,7 @@ const menuSchema = new Schema({
 											type: "Undefined",
 											path: "menuSections.bannerCard",
 											count: 19,
-											total_count: 0,
+											total_count: Number,
 											probability: 0.95,
 											unique: 1,
 											has_duplicates: true,
@@ -7841,7 +7841,7 @@ const menuSchema = new Schema({
 											bsonType: "Null",
 											path: "menuSections.description",
 											count: 18,
-											total_count: 0,
+											total_count: Number,
 											probability: 0.9,
 											unique: 1,
 											has_duplicates: true,
@@ -7855,7 +7855,7 @@ const menuSchema = new Schema({
 												"A layer of buttery, toasted parmesan cheese baked on the underside of our signature thin crust.",
 												"Eight tasty pop-able morsels can be enjoyed in three exciting NEW flavors:",
 											],
-											total_count: 0,
+											total_count: Number,
 											probability: 0.1,
 											unique: 2,
 											has_duplicates: false,
@@ -7877,7 +7877,7 @@ const menuSchema = new Schema({
 											path: "menuSections.id",
 											count: 8,
 											values: ["S0", "S1", "S2", "S3", "S4", "S5", "S6", "S7"],
-											total_count: 0,
+											total_count: Number,
 											probability: 0.4,
 											unique: 8,
 											has_duplicates: false,
@@ -7887,7 +7887,7 @@ const menuSchema = new Schema({
 											type: "Undefined",
 											path: "menuSections.id",
 											count: 12,
-											total_count: 0,
+											total_count: Number,
 											probability: 0.6,
 											unique: 1,
 											has_duplicates: true,
@@ -7962,7 +7962,7 @@ const menuSchema = new Schema({
 																												"customizeFunction",
 																												"customizeFunction",
 																											],
-																											total_count: 0,
+																											total_count: Number,
 																											probability: 1,
 																											unique: 1,
 																											has_duplicates: true,
@@ -7992,7 +7992,7 @@ const menuSchema = new Schema({
 																												"dark",
 																												"dark",
 																											],
-																											total_count: 0,
+																											total_count: Number,
 																											probability: 1,
 																											unique: 1,
 																											has_duplicates: true,
@@ -8022,7 +8022,7 @@ const menuSchema = new Schema({
 																												"Customize",
 																												"Customize",
 																											],
-																											total_count: 0,
+																											total_count: Number,
 																											probability: 1,
 																											unique: 1,
 																											has_duplicates: true,
@@ -8034,7 +8034,7 @@ const menuSchema = new Schema({
 																									probability: 1,
 																								},
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 1,
 																						},
 																					],
@@ -8068,7 +8068,7 @@ const menuSchema = new Schema({
 																						"Lighter than our Original Crust, and just a little bit crispy.",
 																						"Made with sorghum, teff, amaranth and quinoa. Not recommended for those with Celiac Disease.",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 7,
 																					has_duplicates: false,
@@ -8109,7 +8109,7 @@ const menuSchema = new Schema({
 																										"Name6",
 																										"Name7",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 7,
 																									has_duplicates: false,
@@ -8139,7 +8139,7 @@ const menuSchema = new Schema({
 																										"name6Url.png",
 																										"name7Url.png",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 7,
 																									has_duplicates: false,
@@ -8151,7 +8151,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -8190,7 +8190,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 2,
 																									has_duplicates: true,
@@ -8211,7 +8211,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.menuCarousel.carouselCards.interestFlag.text",
 																									count: 6,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.8571428571428571,
 																									unique: 1,
 																									has_duplicates: true,
@@ -8222,7 +8222,7 @@ const menuSchema = new Schema({
 																									path: "menuSections.menuCarousel.carouselCards.interestFlag.text",
 																									count: 1,
 																									values: ["LIMITED TIME"],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.14285714285714285,
 																									unique: 1,
 																									has_duplicates: false,
@@ -8234,7 +8234,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -8262,7 +8262,7 @@ const menuSchema = new Schema({
 																						"Thin Crust",
 																						"Gluten-Free Crust",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 7,
 																					has_duplicates: false,
@@ -8292,7 +8292,7 @@ const menuSchema = new Schema({
 																						"menuCarouselCard",
 																						"menuCarouselCard",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 1,
 																					has_duplicates: true,
@@ -8304,7 +8304,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -8343,7 +8343,7 @@ const menuSchema = new Schema({
 																			values: [
 																				" Get started with one of our signature crusts",
 																			],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -8365,7 +8365,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.menuCarousel.leadCard.title",
 																			count: 1,
 																			values: ["CREATE YOUR OWN PIZZA"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -8387,7 +8387,7 @@ const menuSchema = new Schema({
 																			path: "menuSections.menuCarousel.leadCard.type",
 																			count: 1,
 																			values: ["leadCarouselCard"],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																			unique: 1,
 																			has_duplicates: false,
@@ -8399,7 +8399,7 @@ const menuSchema = new Schema({
 																	probability: 1,
 																},
 															],
-															total_count: 0,
+															total_count: Number,
 															probability: 1,
 														},
 													],
@@ -8409,7 +8409,7 @@ const menuSchema = new Schema({
 													probability: 1,
 												},
 											],
-											total_count: 0,
+											total_count: Number,
 											probability: 0.05,
 										},
 										{
@@ -8417,7 +8417,7 @@ const menuSchema = new Schema({
 											type: "Undefined",
 											path: "menuSections.menuCarousel",
 											count: 19,
-											total_count: 0,
+											total_count: Number,
 											probability: 0.95,
 											unique: 1,
 											has_duplicates: true,
@@ -8460,18 +8460,18 @@ const menuSchema = new Schema({
 																			name: "Document",
 																			bsonType: "Document",
 																			path: "menuSections.productCards.buttonGroup",
-																			count: 117,
+																			count: Number,
 																			fields: [
 																				{
 																					name: "buttonFunction",
 																					path: "menuSections.productCards.buttonGroup.buttonFunction",
-																					count: 117,
+																					count: Number,
 																					types: [
 																						{
 																							name: "String",
 																							bsonType: "String",
 																							path: "menuSections.productCards.buttonGroup.buttonFunction",
-																							count: 117,
+																							count: Number,
 																							values: [
 																								"addToOrderFunction",
 																								"addToOrderFunction",
@@ -8574,13 +8574,13 @@ const menuSchema = new Schema({
 																								"customizeFunction",
 																								"customizeFunction",
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 1,
 																							unique: 2,
 																							has_duplicates: true,
 																						},
 																					],
-																					total_count: 117,
+																					total_count: Number,
 																					type: "String",
 																					has_duplicates: true,
 																					probability: 1,
@@ -8588,13 +8588,13 @@ const menuSchema = new Schema({
 																				{
 																					name: "buttonStyle",
 																					path: "menuSections.productCards.buttonGroup.buttonStyle",
-																					count: 117,
+																					count: Number,
 																					types: [
 																						{
 																							name: "String",
 																							bsonType: "String",
 																							path: "menuSections.productCards.buttonGroup.buttonStyle",
-																							count: 117,
+																							count: Number,
 																							values: [
 																								"dark",
 																								"dark",
@@ -8697,13 +8697,13 @@ const menuSchema = new Schema({
 																								"light",
 																								"dark",
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 1,
 																							unique: 2,
 																							has_duplicates: true,
 																						},
 																					],
-																					total_count: 117,
+																					total_count: Number,
 																					type: "String",
 																					has_duplicates: true,
 																					probability: 1,
@@ -8711,13 +8711,13 @@ const menuSchema = new Schema({
 																				{
 																					name: "buttonText",
 																					path: "menuSections.productCards.buttonGroup.buttonText",
-																					count: 117,
+																					count: Number,
 																					types: [
 																						{
 																							name: "String",
 																							bsonType: "String",
 																							path: "menuSections.productCards.buttonGroup.buttonText",
-																							count: 117,
+																							count: Number,
 																							values: [
 																								"ADD TO ORDER",
 																								"ADD TO ORDER",
@@ -8820,13 +8820,13 @@ const menuSchema = new Schema({
 																								"ADD TO ORDER",
 																								"CUSTOMIZE",
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 1,
 																							unique: 2,
 																							has_duplicates: true,
 																						},
 																					],
-																					total_count: 117,
+																					total_count: Number,
 																					type: "String",
 																					has_duplicates: true,
 																					probability: 1,
@@ -8841,7 +8841,7 @@ const menuSchema = new Schema({
 																							type: "Undefined",
 																							path: "menuSections.productCards.buttonGroup.id",
 																							count: 77,
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 0.6581196581196581,
 																							unique: 1,
 																							has_duplicates: true,
@@ -8893,19 +8893,19 @@ const menuSchema = new Schema({
 																								"BTN00",
 																								"BTN01",
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 0.3418803418803419,
 																							unique: 9,
 																							has_duplicates: true,
 																						},
 																					],
-																					total_count: 117,
+																					total_count: Number,
 																					type: ["Undefined", "String"],
 																					has_duplicates: true,
 																					probability: 0.3418803418803419,
 																				},
 																			],
-																			total_count: 0,
+																			total_count: Number,
 																			probability: 1,
 																		},
 																	],
@@ -8917,7 +8917,7 @@ const menuSchema = new Schema({
 																		2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2,
 																		2, 2, 2, 2, 2, 2, 1, 2, 2, 1,
 																	],
-																	total_count: 117,
+																	total_count: Number,
 																	probability: 1,
 																	average_length: 1.3764705882352941,
 																},
@@ -8937,7 +8937,7 @@ const menuSchema = new Schema({
 																	type: "Undefined",
 																	path: "menuSections.productCards.cardType",
 																	count: 60,
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.7058823529411765,
 																	unique: 1,
 																	has_duplicates: true,
@@ -8974,7 +8974,7 @@ const menuSchema = new Schema({
 																		"ProductCard",
 																		"ProductCard",
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.29411764705882354,
 																	unique: 3,
 																	has_duplicates: true,
@@ -9073,7 +9073,7 @@ const menuSchema = new Schema({
 																		"360 cal /slice, 8 slices",
 																		"300 cal /slice, 8 slices",
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.8941176470588236,
 																	unique: 62,
 																	has_duplicates: true,
@@ -9083,7 +9083,7 @@ const menuSchema = new Schema({
 																	bsonType: "Null",
 																	path: "menuSections.productCards.description",
 																	count: 9,
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.10588235294117647,
 																	unique: 1,
 																	has_duplicates: true,
@@ -9198,7 +9198,7 @@ const menuSchema = new Schema({
 																						"details1Url",
 																						"details1Url",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.9529411764705882,
 																					unique: 2,
 																					has_duplicates: true,
@@ -9208,7 +9208,7 @@ const menuSchema = new Schema({
 																					bsonType: "Null",
 																					path: "menuSections.productCards.details.detailsUrl",
 																					count: 4,
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.047058823529411764,
 																					unique: 1,
 																					has_duplicates: true,
@@ -9312,7 +9312,7 @@ const menuSchema = new Schema({
 																						"Detail",
 																						"Details",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.9529411764705882,
 																					unique: 2,
 																					has_duplicates: true,
@@ -9322,7 +9322,7 @@ const menuSchema = new Schema({
 																					bsonType: "Null",
 																					path: "menuSections.productCards.details.text",
 																					count: 4,
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.047058823529411764,
 																					unique: 1,
 																					has_duplicates: true,
@@ -9334,7 +9334,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -9353,7 +9353,7 @@ const menuSchema = new Schema({
 																	type: "Undefined",
 																	path: "menuSections.productCards.id",
 																	count: 60,
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.7058823529411765,
 																	unique: 1,
 																	has_duplicates: true,
@@ -9386,7 +9386,7 @@ const menuSchema = new Schema({
 																		"30",
 																		"31",
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.24705882352941178,
 																	unique: 14,
 																	has_duplicates: true,
@@ -9397,7 +9397,7 @@ const menuSchema = new Schema({
 																	path: "menuSections.productCards.id",
 																	count: 4,
 																	values: [0, 1, 2, 3],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.047058823529411764,
 																	unique: 4,
 																	has_duplicates: false,
@@ -9516,7 +9516,7 @@ const menuSchema = new Schema({
 																						"card2",
 																						"card1",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 14,
 																					has_duplicates: true,
@@ -9624,7 +9624,7 @@ const menuSchema = new Schema({
 																						"/Pizza_ShopFE/static/media/normal-bake.86bc03821eeff3cdadfd.png",
 																						"/Pizza_ShopFE/static/media/normal-bake.86bc03821eeff3cdadfd.png",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 2,
 																					has_duplicates: true,
@@ -9636,7 +9636,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -9753,7 +9753,7 @@ const menuSchema = new Schema({
 																						false,
 																						false,
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																					unique: 2,
 																					has_duplicates: true,
@@ -9774,7 +9774,7 @@ const menuSchema = new Schema({
 																					bsonType: "Null",
 																					path: "menuSections.productCards.interestFlag.text",
 																					count: 80,
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.9411764705882353,
 																					unique: 1,
 																					has_duplicates: true,
@@ -9791,7 +9791,7 @@ const menuSchema = new Schema({
 																						"LIMITED TIME",
 																						"LIMITED TIME",
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 0.058823529411764705,
 																					unique: 3,
 																					has_duplicates: true,
@@ -9803,7 +9803,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 1,
 																},
 															],
@@ -9831,7 +9831,7 @@ const menuSchema = new Schema({
 																		0.75, 1.75, 8.49, 8.49, 8.49, 8.49, 17.5,
 																		17.5, 17.5, 12.99, 12.99, 12.5, 8.49,
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.6,
 																	unique: 17,
 																	has_duplicates: true,
@@ -9846,7 +9846,7 @@ const menuSchema = new Schema({
 																		7, 7, 7, 7, 7, 7, 19, 19, 19, 19, 19, 19,
 																		19, 19, 19, 19, 19, 19, 19, 19, 19,
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.4,
 																	unique: 4,
 																	has_duplicates: true,
@@ -9955,7 +9955,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 2,
 																									has_duplicates: true,
@@ -9976,7 +9976,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.productCards.productCardForm.flavor.value",
 																									count: 33,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.515625,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10019,7 +10019,7 @@ const menuSchema = new Schema({
 																										"Pizza Sauce",
 																										"Pizza Sauce",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.484375,
 																									unique: 5,
 																									has_duplicates: true,
@@ -10031,7 +10031,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -10127,7 +10127,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 2,
 																									has_duplicates: true,
@@ -10157,7 +10157,7 @@ const menuSchema = new Schema({
 																										1, 1, 1, 1, 1, 1, 1, 1, 1,
 																										1, 1, 1,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.890625,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10167,7 +10167,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.productCards.productCardForm.quantity.value",
 																									count: 7,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.109375,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10179,7 +10179,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -10275,7 +10275,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 2,
 																									has_duplicates: true,
@@ -10355,7 +10355,7 @@ const menuSchema = new Schema({
 																										"Banana Peppers",
 																										"Anchovies",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.890625,
 																									unique: 35,
 																									has_duplicates: true,
@@ -10365,7 +10365,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.productCards.productCardForm.size.value",
 																									count: 7,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.109375,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10377,7 +10377,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -10473,7 +10473,7 @@ const menuSchema = new Schema({
 																										false,
 																										false,
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 1,
 																									unique: 2,
 																									has_duplicates: true,
@@ -10494,7 +10494,7 @@ const menuSchema = new Schema({
 																									bsonType: "Null",
 																									path: "menuSections.productCards.productCardForm.type.value",
 																									count: 58,
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.90625,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10512,7 +10512,7 @@ const menuSchema = new Schema({
 																										"Normal Bake",
 																										"Normal Bake",
 																									],
-																									total_count: 0,
+																									total_count: Number,
 																									probability: 0.09375,
 																									unique: 1,
 																									has_duplicates: true,
@@ -10524,7 +10524,7 @@ const menuSchema = new Schema({
 																							probability: 1,
 																						},
 																					],
-																					total_count: 0,
+																					total_count: Number,
 																					probability: 1,
 																				},
 																			],
@@ -10534,7 +10534,7 @@ const menuSchema = new Schema({
 																			probability: 1,
 																		},
 																	],
-																	total_count: 0,
+																	total_count: Number,
 																	probability: 0.7529411764705882,
 																},
 																{
@@ -10637,7 +10637,7 @@ const menuSchema = new Schema({
 																								"border-2 mx-2 my-1 pl-2 py-3 rounded-lg text-xl border-gray-300 w-360",
 																								"border-2 mx-2 my-1 pl-2 py-3 rounded-lg text-xl border-gray-300 w-360",
 																							],
-																							total_count: 0,
+																							total_count: Number,
 																							probability: 1,
 																							unique: 5,
 																							has_duplicates: true,
